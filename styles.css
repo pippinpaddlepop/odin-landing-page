@@ -13,6 +13,9 @@
     background-color: rgb(73, 69, 69);
     color: white;
 }
+.awsm{
+    font-size: 3.5rem;
+}
 .container{
     display: flex;
     background-color: rgb(73, 69, 69);
@@ -60,4 +63,13 @@ a{
     height: 260px;
     border-radius: 12px;
 
+}
+.quote-cont{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color:rgb(107, 141, 185);
+    font-size: 2rem;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
 }
