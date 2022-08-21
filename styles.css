@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    color: white;
+    
 }
 .head-cont{
     display: flex;
@@ -11,12 +11,14 @@
     padding-right: 20px;
     
     background-color: rgb(73, 69, 69);
+    color: white;
 }
 .container{
     display: flex;
     background-color: rgb(73, 69, 69);
     justify-content: space-between;
     padding-bottom: 50px;
+    color: white;
 }
 img{
     width: 550px;
@@ -25,10 +27,37 @@ img{
 }
 .awesome-cont{
     padding-left: 50px;
+    color: white;
+}
+a{
+    color: white;
 }
 .signup{
     background-color: rgb(107, 141, 185);
     margin-top: 20px;
     border: solid 2px white;
     border-radius: 12px;
+    color: white;
+}
+
+.card-head-cont{
+    display: flex;
+    justify-content: center;
+    color: rgb(73, 69, 69) ;
+    padding-top: 40px;
+}
+.card-cont{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+.card-item{
+    border: solid 3px rgb(107, 141, 185);
+    width: 260px;
+    height: 260px;
+    border-radius: 12px;
+
 }
