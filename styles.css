@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    color: white;
+}
+.head-cont{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    
+    background-color: rgb(73, 69, 69);
+}
+.container{
+    display: flex;
+    background-color: rgb(73, 69, 69);
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+img{
+    width: 550px;
+    height: 250px;
+    padding-right: 50px;
+}
+.awesome-cont{
+    padding-left: 50px;
+}
+.signup{
+    background-color: rgb(107, 141, 185);
+    margin-top: 20px;
+    border: solid 2px white;
+    border-radius: 12px;
+}
