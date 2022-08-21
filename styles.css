@@ -34,6 +34,8 @@ img{
 }
 a{
     color: white;
+    text-decoration: none;
+    padding: 20px;
 }
 .signup{
     background-color: rgb(107, 141, 185);
@@ -48,6 +50,7 @@ a{
     justify-content: center;
     color: rgb(73, 69, 69) ;
     padding-top: 40px;
+    font-size: 2rem;
 }
 .card-cont{
     display: flex;
@@ -66,10 +69,40 @@ a{
 }
 .quote-cont{
     padding-top: 40px;
-    padding-bottom: 50px;
-    background-color:rgb(107, 141, 185);
+    padding-bottom: 150px;
+    background-color:rgb(204, 217, 235);
     font-size: 2rem;
     font-style: italic;
     display: flex;
     justify-content: center;
+}
+
+.sign-up-cont{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 200px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 2rem;
+    background-color: rgb(31, 131, 156);
+    margin: 40px;
+    border-radius: 7px;
+    color: antiquewhite;
+}
+.sgn{
+    background-color:rgb(31, 131, 156) ;
+    border: solid 2px white;
+    border-radius: 7px;
+    color: white;
+    width: 250px;
+}
+.footer{
+    background-color: rgb(73, 69, 69);
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
 }
